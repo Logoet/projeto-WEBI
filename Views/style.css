@@ -1,0 +1,39 @@
+:root{
+    --cor1: #A69F95;
+    --cor2: #7A7A7A;
+    --cor3: #606B73;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;
+    background-color: var(--cor2);
+}
+
+nav{
+    border-style: solid;
+    border-width: 2px;
+    padding: 9px;
+}
+
+nav a {
+    padding: 10px;
+    border-left: solid 2px black;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+    font-size: large;
+}
+
+body {
+    background-color: var(--cor3);
+}
+
